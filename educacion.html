@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hoja de Vida Digital - Educacion</title>
+</head>
+<body>
+    <header>
+        <img src="../hojaDeVida/img/logo.svg" alt="logo hoja de vida">
+        <h1 title="Hoja de Vida Nicolas De Leon">Curriculum Vitae</h1>
+        <h2>Nombre y Apellido: Nicolas De Leon</h2>
+        <h3>Fecha de Nacimiento: 25/02/1987</h3>
+        <h3>Lugar de Nacimiento: Canelones</h3>
+        <nav>
+            <a href="../hojaDeVida/index.html">Inicio</a>
+            <a href="../hojaDeVida/educacion.html">Educacion</a>
+            <a href="../hojaDeVida/experiencia.html">Experiencia</a>
+        </nav>
+    </header>
+
+    <section>
+        <h2>Educacion</h2>
+
+        <table border="1">
+            <tr>
+                <td>Año</td>
+                <td>Institucion</td>
+                <td>Especializacion</td>
+                <td>Lugar</td>
+                <td>¿Culminó?</td>
+            </tr>
+            <tr>
+                <td>2002</td>
+                <td>Maturana</td>
+                <td>Bachiller Tecnologico</td>
+                <td>Montevideo</td>
+                <td>Si</td>
+                </tr>
+            <tr>
+                <td>2006</td>
+                <td>UDELAR</td>
+                <td>Veterinaria</td>
+                <td>Montevideo</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>2011</td>
+                <td>ORT</td>
+                <td>Informatica</td>
+                <td>Montevideo</td>
+                <td>Si</td>
+            </tr>
+
+        </table>
+    </section>
+
+    <section>
+        <form action="" autocomplete="on">
+            <fieldset>
+                <legend>Agregar Estudios</legend>
+
+                <label for="year">Año</label>
+                <select name="year" id="year">
+                    <option value="2005">2005</option>
+                    <option value="2008">2008</option>
+                    <option value="2010">2010</option>
+                    <option value="2015">2015</option>
+                </select><br>
+
+                <label for="texto1">Institucion</label>
+                <input type="text" name="texto1" id="texto1" placeholder="Ej. Universidad Catolica" required><br>
+
+                <label for="mensaje">Lugar</label><br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10" maxlength="20" placeholder="Ingrese texto aqui"></textarea><br>
+                
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Borrar">
+            </fieldset>
+
+
+        </form>
+    </section>
+    <footer>
+        <p>Telefono: +598-9822-8492</p>
+    </footer>
+</body>
+</html>
